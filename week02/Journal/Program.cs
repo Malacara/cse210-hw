@@ -1,5 +1,8 @@
 using System;
 
+// Another reason people don't keep journals is that they get tired of being repetitive.
+// Every day seems the same, and at a certain point, they get bored of writing the same thing over and over again.
+// Daniel Malacara 03/12/2025 BYU
 class Program
 {
     static void Main(string[] args)
