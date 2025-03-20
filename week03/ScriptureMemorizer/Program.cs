@@ -1,5 +1,9 @@
 using System;
 
+// The program meets all the core requirements, it is correctly sectioned according to the model we created and the example given in the lesson,
+// each class has its own file and I only used the necessary setters and getters, but I still created setters in Reference.cs in case in the future we want to
+// create a program that supports human input, so whoever uses it could put their own verse and reference that they want to memorize.
+
 class Program
 {
     static void Main(string[] args)
