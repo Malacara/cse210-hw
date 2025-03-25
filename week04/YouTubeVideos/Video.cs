@@ -6,7 +6,7 @@ public class Video
     private string _title;
     private string _author;
     private int _lenght;
-    private List<Comment> comments = new List<Comment>();
+    private List<Comment> _comments = new List<Comment>();
     
     public Video(string title, string author, int lenght)
     {
@@ -17,17 +17,17 @@ public class Video
 
     public void AddComment(string text, string user)
     {
-        comments.Add(new Comment($"{text}", $"{user}"));
+        _comments.Add(new Comment($"{text}", $"{user}"));
     }
 
     public int TotalComments()
     {
-        return comments.Count();
+        return _comments.Count();
     }
 
     public void DisplayComments()
     {
-        foreach (Comment comment in comments)
+        foreach (Comment comment in _comments)
         {
             comment.DisplayComment();
         }
